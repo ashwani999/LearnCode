@@ -1,9 +1,10 @@
 # LearnCode
 MEAN Stack
+
 Minor Project
 
 It is Portal to learn and Compile code online
-MEAN Stack Learn Code
+
 
 To run, you just have MongoDB installed and running, and NodeJS installed.
 
