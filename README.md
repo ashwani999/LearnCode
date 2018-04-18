@@ -14,6 +14,6 @@ To run, you just have MongoDB installed and running, and NodeJS installed.
 * Open http://localhost:4200 to see the application
 
 SCREENSHOTS
-![Alt text](Screenshots/1.jpg?raw=true "home")
-![Alt text](/Screenshots/2.jpg?raw=true "home")
+![Alt text](Screenshots/1.JPG?raw=true "home")
+![Alt text](/Screenshots/2.JPG?raw=true "home")
 ![Alt text](screenshots/3.jpg?raw=true "home")
