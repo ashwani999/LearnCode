@@ -1,0 +1,28 @@
+.card-text{text-align: center;
+    color: rgb(238, 4, 35);
+    
+}
+.card-title{
+    color: rgb(238, 18, 18);
+}
+.card-subtitle{
+    color: rgb(25, 3, 77);
+}
+h1 {text-align: center;
+    color: rgba(38, 0, 255, 0.849);}
+    
+    h3 {text-align: center;
+        color: rgba(241, 57, 24, 0.849);
+    
+      
+}
+h4 {text-align: center;
+    color: rgba(13, 245, 25, 0.849);}
+body{
+    margin-right: 5%;
+    margin-left: 5%;
+        
+    background-size: cover;
+    background-attachment: auto;
+    background-position: right top;
+}

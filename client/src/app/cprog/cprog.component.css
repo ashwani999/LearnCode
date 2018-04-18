@@ -1,0 +1,18 @@
+body{
+    align-content: center;
+    text-align: left;
+    margin-left: 25px;
+    margin-right:25px; 
+}
+collapse{
+    align-content: center;
+}
+
+
+
+.pdfobject-container { height: 500px;}
+.pdfobject { border: 1px solid #666; }
+
+
+.pdfobject-container { height: 500px;}
+.pdfobject { border: 1px solid #666; }
