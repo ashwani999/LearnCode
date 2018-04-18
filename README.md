@@ -15,5 +15,9 @@ To run, you just have MongoDB installed and running, and NodeJS installed.
 
 SCREENSHOTS
 ![Alt text](Screenshots/1.JPG?raw=true "home")
-![Alt text](/Screenshots/2.JPG?raw=true "home")
-![Alt text](screenshots/3.jpg?raw=true "home")
+![Alt text](/Screenshots/2.JPG?raw=true "")
+![Alt text](Screenshots/3.JPG?raw=true "")
+![Alt text](Screenshots/6.JPG?raw=true "")
+![Alt text](Screenshots/7.JPG?raw=true "")
+![Alt text](Screenshots/8.JPG?raw=true "")
+![Alt text](Screenshots/10.JPG?raw=true "")
