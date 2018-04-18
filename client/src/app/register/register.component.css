@@ -1,0 +1,12 @@
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid rgb(54, 57, 230);
+}
+input[type=password] {
+    border: none;
+    border-bottom: 2px solid rgb(54, 57, 230);
+}
+input[type=email] {
+    border: none;
+    border-bottom: 2px solid rgb(54, 57, 230);
+}

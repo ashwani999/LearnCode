@@ -1,0 +1,29 @@
+h1{
+    color: rgb(14, 0, 0);
+}
+label{
+    color: rgb(2, 2, 19);
+}
+p{
+    color: rgb(8, 0, 0);
+
+}
+h2{
+    color: rgb(20, 20, 20);
+}
+body{
+    background: url() ;
+    background-size: fill;
+    background-attachment: auto;
+    background-position: right top;
+}
+.card-text{
+    color: rgb(242, 241, 243);
+    
+}
+.card-title{
+    color: rgb(243, 234, 234);
+}
+.card-subtitle{
+    color: rgb(243, 234, 234);
+}
