@@ -1,0 +1,72 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Learn Code</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+    <div class="container">
+      <a href="index.html" class="navbar-brand"><h1>Learn Code</h1></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navNavbar"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto navbar-right">
+          <li class="nav-item ">
+              <a href="/" class="nav-link"><h5>Home</h5></a>
+          </li>
+          <!--</ul>
+          <ul class="navbar-nav ml-auto navbar-right">-->
+          <li class="nav-item">
+            <a [routerLink]="['/about']" class="nav-link"><h5>About Us</h5></a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['/blog']" class="nav-link"><h5>Blog</h5></a>
+          </li>
+          
+            
+            <li class="nav-item" *ngIf="auth.isLoggedIn()">
+              <a [routerLink]="['/profile']" class="nav-link"><h5>Profile</h5></a>
+            
+          </li>
+            <li class="nav-item" *ngIf="auth.isLoggedIn()"><a  (click)="auth.logout()" class="nav-link"><h5>Logout</h5></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+
+
+    <footer id="main-footer" class="text-center p-4 ">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p class="display-9">Copyright 2018 &copy; DIT University</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
